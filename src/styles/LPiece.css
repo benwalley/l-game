@@ -1,0 +1,32 @@
+
+.L {
+    position:absolute;
+    top:0;
+    left:0;
+    height:75%;
+    width:50%;
+}
+
+.l-square {
+    width:50%;
+    height:calc(100%/3);
+    background:red;
+    /*clip-path: circle(60px at center);*/
+}
+
+.l-circle {
+    width:50%;
+    height:50%;
+    border-radius:50%;
+    background:yellow;
+    border:3px solid #11dac2;
+    float:left;
+    display:block;
+    transform: translate(50%, 50% );
+}
+
+.l-last {
+    position:absolute;
+    top:0;
+    right:0;
+}

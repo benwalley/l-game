@@ -1,0 +1,23 @@
+
+.mainBoard {
+  width:500px;
+  height:500px;
+  background:#11dac2;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50% );
+  box-shadow:1px 1px 15px grey;
+  border-radius:3px;
+}
+
+.board-bump {
+  width:12.5%;
+  height:12.5%;
+  margin:6.25%;
+  float:left;
+  border:3px solid #11dac2;
+  background:yellow;
+  box-sizing:border-box;
+  border-radius:50%;
+}
